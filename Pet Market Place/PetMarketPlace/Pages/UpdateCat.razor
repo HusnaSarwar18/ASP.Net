@@ -1,0 +1,107 @@
+﻿@page "/UpdateCat/{CatID:int}"
+@inject IWebHostEnvironment Environment
+@inject ICatInterface catRepo
+@inject NavigationManager manager
+
+<PageTitle>Update Cat </PageTitle>
+
+<div class="container mt-5">
+    <h2 class="text-center">Update Cat</h2>
+
+    <EditForm Model="@cat" OnValidSubmit="@HandleSubmit" class="mt-4" OnInvalidSubmit="notValid">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="form-group">
+            <label for="catType">Cat Type</label>
+            <InputText id="catType" @bind-Value="cat.CatType" class="form-control" placeholder="Enter cat type (e.g., Persian, Maine Coon)" />
+        </div>
+
+        <div class="form-group mt-3">
+            <label for="catAge">Cat Age (in years)</label>
+            <InputNumber id="catAge" @bind-Value="cat.CatAge" class="form-control" placeholder="Enter cat age" min="0" />
+        </div>
+
+        <div class="form-group mt-3">
+            <label for="catColor">Cat Color</label>
+            <InputText id="catColor" @bind-Value="cat.CatColor" class="form-control" placeholder="Enter cat color (e.g., White, Black)" />
+        </div>
+
+        <div class="form-group mt-3">
+            <label for="catPrice">Price</label>
+            <InputNumber id="catPrice" @bind-Value="cat.CatPrice" class="form-control" placeholder="Enter price" min="0" />
+        </div>
+
+        <div class="form-group mt-3">
+            <label for="catPicture">Cat Picture</label>
+            <InputFile id="catPicture" OnChange="@HandleFileUpload" class="form-control-file" />
+        </div>
+
+        <button type="submit" class="btn btn-primary mt-4">Submit</button>
+    </EditForm>
+
+    @if (!string.IsNullOrEmpty(message))
+    {
+        <div class="alert alert-info mt-4" role="alert">
+            <strong>@message</strong>
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public int CatID{ get; set; }
+
+    private CatEntity cat = new CatEntity();
+    private string message;
+
+    private async Task HandleSubmit()
+    {
+        try
+        {
+            if (cat != null)
+            {
+                cat.CatId = CatID;
+                catRepo.UpdateCat(cat);
+                manager.NavigateTo("/MyPets");
+            }
+            else
+            {
+                message = "Cat details are not complete.";
+            }
+        }
+        catch (Exception ex)
+        {
+            message = $"An error occurred: {ex.Message}";
+        }
+    }
+
+    private async Task HandleFileUpload(InputFileChangeEventArgs e)
+    {
+        var file = e.File;
+        if (file != null && file.ContentType.StartsWith("image/") && file.Size < 1048576) // 1MB limit
+        {
+            var wwwPath = Environment.WebRootPath;
+            var path = Path.Combine(wwwPath, "images/cats");
+            Directory.CreateDirectory(path);
+
+            var fileName = Path.GetRandomFileName() + Path.GetExtension(Path.GetFileName(file.Name));
+            var filePath = Path.Combine(path, fileName);
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await file.OpenReadStream().CopyToAsync(stream);
+            }
+
+            cat.CatPicturePath = $"/images/cats/{fileName}";
+        }
+        else
+        {
+            message = "Invalid file. Please upload a valid image file under 1MB.";
+        }
+    }
+    void notValid()
+    {
+        message = "Please check your input and try again.";
+    }
+}

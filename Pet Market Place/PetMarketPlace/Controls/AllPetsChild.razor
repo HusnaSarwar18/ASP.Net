@@ -1,0 +1,57 @@
+﻿@inject NavigationManager NavigationManager
+@inject IDogInterface dogs
+@inject ICatInterface cats
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    @foreach (var dog in Pets.Dogs)
+    {
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="@dog.DogPicturePath" class="card-img-top img-fluid img-fit rounded" alt="Dog Picture">
+                <div class="card-body text-center">
+                    <h5 class="card-title">@dog.DogBreed</h5>
+                    <p class="card-text">Age: @dog.DogAge</p>
+                    <p class="card-text">Color: @dog.DogColor</p>
+                    <p class="card-text font-weight-bold text-success">Price: $@dog.DogPrice</p>
+                </div>
+                <div class="card-footer text-center bg-transparent">
+                    <button @onclick="() => BuyPet(dog.DogId, DogType,dog.DogPrice,dog.SellerId)" class="btn btn-outline-primary mx-2">Buy</button>
+                    </div>
+            </div>
+        </div>
+    }
+</div>
+<h2 class="mt-5 mb-4 text-primary">Cats</h2>
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    @foreach (var cat in Pets.Cats)
+    {
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="@cat.CatPicturePath" class="card-img-top img-fluid img-fit rounded" alt="Cat Picture">
+                <div class="card-body text-center">
+                    <h5 class="card-title">@cat.CatType</h5>
+                    <p class="card-text">Age: @cat.CatAge</p>
+                    <p class="card-text">Color: @cat.CatColor</p>
+                    <p class="card-text font-weight-bold text-success">Price: $@cat.CatPrice</p>
+                </div>
+                <div class="card-footer text-center bg-transparent">
+                    <button @onclick="() => BuyPet(cat.CatId, CatType,cat.CatPrice,cat.SellerId)" class="btn btn-outline-primary mx-2">Buy</button>
+                    </div>
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public AllPetsEntity Pets { get; set; }
+
+    string DogType = "Dog";
+    string CatType = "Cat";
+
+    public void BuyPet(int petId ,string petType, decimal Price, int sellerId)
+    {
+        NavigationManager.NavigateTo($"/BuyProduct/{Price}/{petId}/{petType}/{sellerId}");
+    }
+
+}

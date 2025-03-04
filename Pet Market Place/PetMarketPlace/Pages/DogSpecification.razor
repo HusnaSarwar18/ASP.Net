@@ -1,0 +1,102 @@
+﻿@page "/DogSpecification"
+@inject IJSRuntime JsRuntime
+@inject IWebHostEnvironment Environment
+@inject IDogInterface dogRepo
+@inject NavigationManager manager
+
+<PageTitle>Add Dog Specification</PageTitle>
+
+<div class="container mt-5">
+    <h2 class="text-center">Add Dog Specification</h2>
+
+    <EditForm Model="@dog" OnValidSubmit="@HandleSubmit" class="mt-4">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="form-group">
+            <label for="dogBreed">Dog Breed</label>
+            <InputText id="dogBreed" @bind-Value="dog.DogBreed" class="form-control" placeholder="Enter dog breed (e.g., Labrador, Poodle)" />
+        </div>
+
+        <div class="form-group mt-3">
+            <label for="dogAge">Dog Age (in years)</label>
+            <InputNumber id="dogAge" @bind-Value="dog.DogAge" class="form-control" placeholder="Enter dog age" min="0" />
+        </div>
+
+        <div class="form-group mt-3">
+            <label for="dogColor">Dog Color</label>
+            <InputText id="dogColor" @bind-Value="dog.DogColor" class="form-control" placeholder="Enter dog color (e.g., Brown, Black)" />
+        </div>
+
+        <div class="form-group mt-3">
+            <label for="dogPrice">Price</label>
+            <InputNumber id="dogPrice" @bind-Value="dog.DogPrice" class="form-control" placeholder="Enter price" min="0" />
+        </div>
+
+        <div class="form-group mt-3">
+            <label for="dogPicture">Dog Picture</label>
+            <InputFile id="dogPicture" OnChange="@HandleFileUpload" class="form-control-file" />
+        </div>
+
+        <button type="submit" class="btn btn-primary mt-4">Submit</button>
+    </EditForm>
+
+    @if (!string.IsNullOrEmpty(message))
+    {
+        <div class="alert alert-info mt-4" role="alert">
+            <strong>@message</strong>
+        </div>
+    }
+</div>
+
+@code {
+    private DogEntity dog = new DogEntity();
+    private string message;
+
+    private async Task HandleSubmit()
+    {
+        try
+        {
+            string SellerId = await GetAuthToken();
+            dogRepo.AddDog(dog, int.Parse(SellerId));
+            manager.NavigateTo("/SuccessPage");
+
+        }
+        catch (Exception ex)
+        {
+            // Handle other potential exceptions
+            Console.WriteLine($"An error occurred: {ex.Message}");
+            // Optionally set an error message that can be displayed in the UI
+            message = "An error occurred during the operation. Please try again.";
+        }
+    }
+
+
+    private async Task HandleFileUpload(InputFileChangeEventArgs e)
+    {
+        var file = e.File;
+        if (file != null)
+        {
+            var wwwPath = Environment.WebRootPath;
+            var path = Path.Combine(wwwPath, "images/dogs");
+            if (!Directory.Exists(path))
+                Directory.CreateDirectory(path);
+
+            var fileName = Path.GetFileName(file.Name);
+            var filePath = Path.Combine(path, fileName);
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await file.OpenReadStream().CopyToAsync(stream);
+            }
+
+            dog.DogPicturePath = $"/images/dogs/{fileName}";
+        }
+    }
+    public async Task<string> GetAuthToken()
+    {
+        return await JsRuntime.InvokeAsync<string>("localStorage.getItem", new object[] { "SellerId" });
+
+    }
+
+}

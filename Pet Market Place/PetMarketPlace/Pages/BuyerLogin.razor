@@ -1,0 +1,51 @@
+﻿@page "/buyerLogin"
+@inject NavigationManager manager
+@inject IBuyerInterface buyerRepo
+@inject IJSRuntime JsRuntime
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">@Title</h2>
+    @if (Error != null)
+    {
+        <div class="alert alert-danger" role="alert">
+            @Error
+        </div>
+    }
+    <EditForm Model="@buyer" OnValidSubmit="@HandleLogin">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="form-group mb-3">
+            <label for="username">Username</label>
+            <InputText id="username" class="form-control" @bind-Value="buyer.Username" required></InputText>
+        </div>
+        <div class="form-group mb-3">
+            <label for="password">Password</label>
+            <InputText id="password" type="password" class="form-control" @bind-Value="buyer.Password" required></InputText>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Login</button>
+    </EditForm>
+    <p class="mt-3 text-center">Don't have an account? <a href="/BuyerSignup">Sign up</a></p>
+</div>
+
+@code {
+    [Parameter] public string Title { get; set; } = "Login as Buyer";
+    [Parameter] public string Error { get; set; }
+    private BuyerEntity buyer = new BuyerEntity();
+
+    private async Task HandleLogin()
+    {
+        BuyerEntity b = buyerRepo.Login(buyer.Username, buyer.Password);
+        if (b != null)
+        {
+            await SaveAuthToken(b.UserId.ToString());
+            manager.NavigateTo("/AllPets");
+
+        }
+    }
+    
+    public async Task SaveAuthToken(string userId)
+    {
+        await JsRuntime.InvokeVoidAsync("localStorage.setItem", "BuyerId", userId);
+    }
+}

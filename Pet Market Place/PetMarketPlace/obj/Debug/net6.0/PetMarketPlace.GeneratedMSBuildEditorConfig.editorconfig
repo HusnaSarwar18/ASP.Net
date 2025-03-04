@@ -1,0 +1,119 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PetMarketPlace
+build_property.RootNamespace = PetMarketPlace
+build_property.ProjectDir = C:\Users\Ayesha Sarwar\source\repos\PetMarketPlace\PetMarketPlace\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Ayesha Sarwar\source\repos\PetMarketPlace\PetMarketPlace
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Ayesha Sarwar/source/repos/PetMarketPlace/PetMarketPlace/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ayesha Sarwar/source/repos/PetMarketPlace/PetMarketPlace/Controls/AllPetsChild.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcQWxsUGV0c0NoaWxkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ayesha Sarwar/source/repos/PetMarketPlace/PetMarketPlace/Controls/MyPetsChild.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcTXlQZXRzQ2hpbGQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ayesha Sarwar/source/repos/PetMarketPlace/PetMarketPlace/Pages/AllPets.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxsUGV0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ayesha Sarwar/source/repos/PetMarketPlace/PetMarketPlace/Pages/BuyerLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnV5ZXJMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ayesha Sarwar/source/repos/PetMarketPlace/PetMarketPlace/Pages/BuyerSignUp.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnV5ZXJTaWduVXAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ayesha Sarwar/source/repos/PetMarketPlace/PetMarketPlace/Pages/BuyPet.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnV5UGV0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ayesha Sarwar/source/repos/PetMarketPlace/PetMarketPlace/Pages/CatSpecification.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0U3BlY2lmaWNhdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ayesha Sarwar/source/repos/PetMarketPlace/PetMarketPlace/Pages/DogSpecification.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9nU3BlY2lmaWNhdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ayesha Sarwar/source/repos/PetMarketPlace/PetMarketPlace/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ayesha Sarwar/source/repos/PetMarketPlace/PetMarketPlace/Pages/MyPets.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlQZXRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ayesha Sarwar/source/repos/PetMarketPlace/PetMarketPlace/Pages/SelectOptions.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VsZWN0T3B0aW9ucy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ayesha Sarwar/source/repos/PetMarketPlace/PetMarketPlace/Pages/SellerLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VsbGVyTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ayesha Sarwar/source/repos/PetMarketPlace/PetMarketPlace/Pages/SellerSignup.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VsbGVyU2lnbnVwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ayesha Sarwar/source/repos/PetMarketPlace/PetMarketPlace/Pages/SellPet.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VsbFBldC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ayesha Sarwar/source/repos/PetMarketPlace/PetMarketPlace/Pages/Success.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VjY2Vzcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ayesha Sarwar/source/repos/PetMarketPlace/PetMarketPlace/Pages/SuccessFullyBuyed.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VjY2Vzc0Z1bGx5QnV5ZWQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ayesha Sarwar/source/repos/PetMarketPlace/PetMarketPlace/Pages/UpdateCat.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBkYXRlQ2F0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ayesha Sarwar/source/repos/PetMarketPlace/PetMarketPlace/Pages/UpdateDog.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBkYXRlRG9nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ayesha Sarwar/source/repos/PetMarketPlace/PetMarketPlace/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ayesha Sarwar/source/repos/PetMarketPlace/PetMarketPlace/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ayesha Sarwar/source/repos/PetMarketPlace/PetMarketPlace/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ydtrzcjdxl
+
+[C:/Users/Ayesha Sarwar/source/repos/PetMarketPlace/PetMarketPlace/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ayesha Sarwar/source/repos/PetMarketPlace/PetMarketPlace/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ayesha Sarwar/source/repos/PetMarketPlace/PetMarketPlace/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

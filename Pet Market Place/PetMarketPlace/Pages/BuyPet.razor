@@ -1,0 +1,74 @@
+﻿@page "/BuyProduct/{Price:decimal}/{PetId:int}/{PetType}/{SellerId:int}"
+@inject ITransectionInterfaces TransactionService
+@inject ICatInterface Cat
+@inject IDogInterface Dog
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JsRuntime
+
+<PageTitle>Buy Product</PageTitle>
+
+<div class="container mt-5">
+    <h2 class="text-center">Buy Product</h2>
+
+    <EditForm Model="@transaction" OnValidSubmit="HandleSubmit" class="mt-4">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="form-group">
+            <label for="PhoneNumber" class="form-label">Phone Number</label>
+            <InputText id="PhoneNumber" @bind-Value="transaction.PhoneNumber" class="form-control" />
+            <ValidationMessage For="@(() => transaction.PhoneNumber)" class="text-danger" />
+        </div>
+        <div class="form-group">
+            <label for="Address" class="form-label">Address</label>
+            <InputTextArea id="Address" @bind-Value="transaction.Address" class="form-control"></InputTextArea>
+            <ValidationMessage For="@(() => transaction.Address)" class="text-danger" />
+        </div>
+        <div class="form-group">
+            <label for="PaymentAmount" class="form-label">Payment Amount: @Price</label>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+    </EditForm>
+</div>
+
+@code {
+    [Parameter]
+    public decimal Price{ get; set; }
+
+    [Parameter]
+    public string PetType { get; set; }
+
+    [Parameter]
+    public int PetId { get; set; }
+
+    [Parameter]
+    public int SellerId { get; set; }
+
+    private TransactionsEntity transaction = new TransactionsEntity();
+
+    private async Task HandleSubmit()
+    {
+        int BuyerID = await GetBuyerId();
+        Console.WriteLine("Buyer"+BuyerID);
+        transaction.BuyerId = BuyerID;
+        transaction.PetType = PetType;
+        transaction.PetId = PetId;
+        transaction.SellerId = SellerId;
+        transaction.PaymentAmount = Price;
+        transaction.BuyerId = 2;
+        transaction.TransactionDate = DateTime.Now;
+        TransactionService.BuyPet(transaction);
+        if (PetType == "Cat")
+            Cat.DeleteCat(PetId);
+        else if (PetType == "Dog")
+            Dog.DeleteDog(PetId);
+        NavigationManager.NavigateTo("/SuccessFul");
+    }
+    public async Task<int> GetBuyerId()
+    {
+        Console.WriteLine("GetBuyer;id");
+        string BuyerID = await JsRuntime.InvokeAsync<string>("localStorage.getItem", new object[] { "BuyerId" });
+        return int.Parse(BuyerID);
+    }
+
+}

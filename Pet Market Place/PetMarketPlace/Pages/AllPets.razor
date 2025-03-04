@@ -1,0 +1,25 @@
+﻿@page "/AllPets"
+@inject NavigationManager NavigationManager
+@inject IAllPetsInterface Pets
+
+<div class="container mt-5">
+    <h1 class="text-center mb-5 display-4">My Pets</h1>
+    <AllPetsChild Pets="@petEntity" />
+</div>
+
+@code {
+    private AllPetsEntity petEntity;
+    private int SellerId;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var cats = Pets.RetrieveCats();
+        var dogs = Pets.RetrieveDogs();
+
+        petEntity = new AllPetsEntity
+            {
+                Cats = cats,
+                Dogs = dogs
+            };
+    }
+}
