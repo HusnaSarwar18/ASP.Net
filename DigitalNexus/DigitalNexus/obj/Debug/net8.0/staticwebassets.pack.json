@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DigitalNexus.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DigitalNexus.q0sf03rfkf.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DigitalNexus.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DigitalNexus.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DigitalNexus.props",
+      "PackagePath": "build\\DigitalNexus.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DigitalNexus.props",
+      "PackagePath": "buildMultiTargeting\\DigitalNexus.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DigitalNexus.props",
+      "PackagePath": "buildTransitive\\DigitalNexus.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

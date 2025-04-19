@@ -1,0 +1,52 @@
+﻿@page "/checkout"
+@using DigitalNexus.Models.Entities
+@using DigitalNexus.Models.Services
+@inject IPaymentService PaymentService
+
+<h2>Checkout</h2>
+
+@if (Orders == null || !Orders.Any())
+{
+    <p>No orders to process.</p>
+}
+else
+{
+    <OrderSummary Orders="@Orders" />
+}
+
+<div class="form-group mt-4">
+    <label>Payment Method:</label>
+    <select class="form-control" @bind="PaymentMethod">
+        <option value="Credit Card">Credit Card</option>
+        <option value="PayPal">PayPal</option>
+    </select>
+</div>
+<button class="btn btn-success mt-3" @onclick="ProcessPayment">Pay</button>
+
+@code {
+    private string PaymentMethod = "Credit Card";
+    private List<Order> Orders = new List<Order>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Orders = new List<Order>
+        {
+            new Order { OrderId = 1, TotalPrice = 500, OrderStatus = "Pending", CreatedAt = DateTime.Now },
+            new Order { OrderId = 2, TotalPrice = 300, OrderStatus = "Pending", CreatedAt = DateTime.Now }
+        };
+    }
+
+    private void ProcessPayment()
+    {
+        foreach (var order in Orders)
+        {
+            PaymentService.ProcessPayment(new Payment
+                {
+                    OrderId = order.OrderId,
+                    PaymentMethod = PaymentMethod,
+                    PaymentStatus = "Paid",
+                    PaymentDate = DateTime.Now
+                });
+        }
+    }
+}

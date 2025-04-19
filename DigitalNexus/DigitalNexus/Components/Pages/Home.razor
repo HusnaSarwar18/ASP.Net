@@ -1,0 +1,39 @@
+﻿@page "/"
+@using DigitalNexus.Models.Entities
+@using DigitalNexus.Models.Services
+@inject IProductService ProductService
+@inject NavigationManager NavManager
+
+<h1 class="text-center mt-4">Welcome to DigitalNexus</h1>
+
+<div class="container mt-4">
+    <h2>Featured Products</h2>
+    <div class="row">
+        @foreach (var product in FeaturedProducts)
+        {
+            <div class="col-md-3 mb-3">
+                <ProductCard Product="@product" />
+            </div>
+        }
+    </div>
+
+    <h2>Categories</h2>
+    <div class="btn-group mt-3">
+        <button class="btn btn-primary" @onclick="() => NavigateToMobiles()">Mobile Phones</button>
+        <button class="btn btn-secondary" @onclick="() => NavigateToLaptops()">Laptops</button>
+        <button class="btn btn-success" @onclick="() => NavigateToComputers()">Computers</button>
+    </div>
+</div>
+
+@code {
+    private List<Product> FeaturedProducts = new List<Product>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        FeaturedProducts = ProductService.GetProductsByCategory("Featured");
+    }
+
+    private void NavigateToMobiles() => NavManager.NavigateTo($"/productsMobile");
+    private void NavigateToLaptops() => NavManager.NavigateTo($"/productsLaptops");
+    private void NavigateToComputers() => NavManager.NavigateTo($"/productsComputers");
+}

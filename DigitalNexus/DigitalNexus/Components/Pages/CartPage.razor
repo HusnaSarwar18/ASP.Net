@@ -1,0 +1,62 @@
+﻿@page "/cart"
+@using DigitalNexus.Models.Services
+@inject IBuyerService BuyerService
+@inject IProductService ProductService
+
+<h2>Your Cart</h2>
+
+<div class="container mt-4">
+    @if (CartItems == null || !CartItems.Any())
+    {
+        <p>Your cart is empty.</p>
+    }
+    else
+    {
+        @foreach (var item in CartItems)
+        {
+            <div class="row mb-3">
+                <div class="col-md-8">
+                    <h5>@item.ProductName</h5>
+                    <p>Price: $@item.Price</p>
+                    <p>Quantity: @item.Quantity</p>
+                    <p>Total: $@(item.Quantity * item.Price)</p>
+                </div>
+            </div>
+        }
+    }
+</div>
+
+<button class="btn btn-success mt-3" @onclick="ProceedToCheckout">Proceed to Checkout</button>
+
+@code {
+    private List<CartViewModel> CartItems = new List<CartViewModel>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var cart = await Task.Run(() => BuyerService.ViewCart(1)); // Mocked BuyerId
+        foreach (var item in cart)
+        {
+            var product = await Task.Run(() => ProductService.GetProductById(item.ProductId));
+            CartItems.Add(new CartViewModel
+                {
+                    ProductId = item.ProductId,
+                    ProductName = product.Name,
+                    Price = product.Price,
+                    Quantity = item.Quantity
+                });
+        }
+    }
+
+    private void ProceedToCheckout()
+    {
+        Console.WriteLine("Proceeding to checkout...");
+    }
+
+    public class CartViewModel
+    {
+        public int ProductId { get; set; }
+        public string ProductName { get; set; } = string.Empty; // Ensures no null warnings
+        public decimal Price { get; set; }
+        public int Quantity { get; set; }
+    }
+}

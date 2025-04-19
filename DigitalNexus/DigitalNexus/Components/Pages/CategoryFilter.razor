@@ -1,0 +1,35 @@
+﻿@code {
+    [Parameter]
+    public EventCallback<string> OnCategorySelected { get; set; }
+
+    string? category = null;
+
+    void MobileCategory()
+    {
+        category = "Mobile";
+    }
+    void LaptopCategory()
+    {
+        category = "Laptops";
+    }
+    void ComputerCategory()
+    {
+        category = "Computers";
+    }
+    private async Task SelectCategory()
+    {
+        if (OnCategorySelected.HasDelegate)
+        {
+            if (category != null)
+                await OnCategorySelected.InvokeAsync(category);
+        }
+    }
+}
+
+<div class="btn-group">
+    <button class="btn btn-primary" @onclick="() => MobileCategory()">Mobile Phones</button>
+    <button class="btn btn-secondary" @onclick="() => LaptopCategory()">Laptops</button>
+    <button class="btn btn-success" @onclick="() => ComputerCategory()">Computers</button>
+</div>
+
+

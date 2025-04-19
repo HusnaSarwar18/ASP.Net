@@ -1,0 +1,748 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\components\\pages\\footer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\components\\pages\\footer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\components\\pages\\navbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\components\\pages\\navbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\components\\pages\\editproductform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\components\\pages\\editproductform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\components\\pages\\addproductform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\components\\pages\\addproductform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\components\\pages\\ordersummary.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\components\\pages\\ordersummary.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\components\\pages\\orderpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\components\\pages\\orderpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\components\\pages\\productdetailspage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\components\\pages\\productdetailspage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\components\\pages\\productlistingpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\components\\pages\\productlistingpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\components\\pages\\checkoutpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\components\\pages\\checkoutpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\components\\pages\\cartpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\components\\pages\\cartpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\components\\pages\\sellerdashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\components\\pages\\sellerdashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\components\\pages\\admindashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\components\\pages\\admindashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\components\\pages\\loginpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\components\\pages\\loginpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\components\\pages\\registerpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\components\\pages\\registerpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\components\\pages\\categoryfilter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\components\\pages\\categoryfilter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\components\\pages\\productcard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\components\\pages\\productcard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\models\\services\\isellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\models\\services\\isellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\models\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\models\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\models\\services\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\models\\services\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\models\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\models\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\models\\services\\ibuyerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\models\\services\\ibuyerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\models\\services\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\models\\services\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\models\\repositories\\sellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\models\\repositories\\sellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\models\\repositories\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\models\\repositories\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\models\\repositories\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\models\\repositories\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\models\\repositories\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\models\\repositories\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\models\\repositories\\buyerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\models\\repositories\\buyerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\models\\repositories\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\models\\repositories\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\models\\entities\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\models\\entities\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\models\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\models\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\models\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\models\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\models\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\models\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\models\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\models\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\models\\entities\\buyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\models\\entities\\buyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\models\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\models\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|c:\\users\\husnasarwar\\desktop\\blazorfinal\\digitalnexus\\digitalnexus\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78C8A260-EDBF-4E61-9F3F-3FDA48D217D5}|DigitalNexus\\DigitalNexus.csproj|solutionrelative:digitalnexus\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "DigitalNexus\\wwwroot\\app.css",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\wwwroot\\app.css",
+              "RelativeToolTip": "DigitalNexus\\wwwroot\\app.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-27T03:39:05.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditProductForm.razor",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\EditProductForm.razor",
+              "RelativeDocumentMoniker": "DigitalNexus\\Components\\Pages\\EditProductForm.razor",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\EditProductForm.razor",
+              "RelativeToolTip": "DigitalNexus\\Components\\Pages\\EditProductForm.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAwwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T19:33:22.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Navbar.razor",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\Navbar.razor",
+              "RelativeDocumentMoniker": "DigitalNexus\\Components\\Pages\\Navbar.razor",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\Navbar.razor",
+              "RelativeToolTip": "DigitalNexus\\Components\\Pages\\Navbar.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T19:30:02.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Footer.razor",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\Footer.razor",
+              "RelativeDocumentMoniker": "DigitalNexus\\Components\\Pages\\Footer.razor",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\Footer.razor",
+              "RelativeToolTip": "DigitalNexus\\Components\\Pages\\Footer.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T19:30:30.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "DigitalNexus\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "DigitalNexus\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T19:04:20.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "DigitalNexus\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "DigitalNexus\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T21:21:27.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddProductForm.razor",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\AddProductForm.razor",
+              "RelativeDocumentMoniker": "DigitalNexus\\Components\\Pages\\AddProductForm.razor",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\AddProductForm.razor",
+              "RelativeToolTip": "DigitalNexus\\Components\\Pages\\AddProductForm.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAwwBoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T19:32:35.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderSummary.razor",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\OrderSummary.razor",
+              "RelativeDocumentMoniker": "DigitalNexus\\Components\\Pages\\OrderSummary.razor",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\OrderSummary.razor",
+              "RelativeToolTip": "DigitalNexus\\Components\\Pages\\OrderSummary.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T19:32:09.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderPage.razor",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\OrderPage.razor",
+              "RelativeDocumentMoniker": "DigitalNexus\\Components\\Pages\\OrderPage.razor",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\OrderPage.razor",
+              "RelativeToolTip": "DigitalNexus\\Components\\Pages\\OrderPage.razor",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T19:26:40.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductDetailsPage.razor",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\ProductDetailsPage.razor",
+              "RelativeDocumentMoniker": "DigitalNexus\\Components\\Pages\\ProductDetailsPage.razor",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\ProductDetailsPage.razor",
+              "RelativeToolTip": "DigitalNexus\\Components\\Pages\\ProductDetailsPage.razor",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T19:25:41.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductListingPage.razor",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\ProductListingPage.razor",
+              "RelativeDocumentMoniker": "DigitalNexus\\Components\\Pages\\ProductListingPage.razor",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\ProductListingPage.razor",
+              "RelativeToolTip": "DigitalNexus\\Components\\Pages\\ProductListingPage.razor",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwBwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T19:25:13.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CheckoutPage.razor",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\CheckoutPage.razor",
+              "RelativeDocumentMoniker": "DigitalNexus\\Components\\Pages\\CheckoutPage.razor",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\CheckoutPage.razor",
+              "RelativeToolTip": "DigitalNexus\\Components\\Pages\\CheckoutPage.razor",
+              "ViewState": "AgIAACEAAAAAAAAAAAAwwDAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T19:28:22.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CartPage.razor",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\CartPage.razor",
+              "RelativeDocumentMoniker": "DigitalNexus\\Components\\Pages\\CartPage.razor",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\CartPage.razor",
+              "RelativeToolTip": "DigitalNexus\\Components\\Pages\\CartPage.razor",
+              "ViewState": "AgIAACgAAAAAAAAAAAAwwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T19:26:10.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SellerDashboard.razor",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\SellerDashboard.razor",
+              "RelativeDocumentMoniker": "DigitalNexus\\Components\\Pages\\SellerDashboard.razor",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\SellerDashboard.razor",
+              "RelativeToolTip": "DigitalNexus\\Components\\Pages\\SellerDashboard.razor",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T19:27:50.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminDashboard.razor",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\AdminDashboard.razor",
+              "RelativeDocumentMoniker": "DigitalNexus\\Components\\Pages\\AdminDashboard.razor",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\AdminDashboard.razor",
+              "RelativeToolTip": "DigitalNexus\\Components\\Pages\\AdminDashboard.razor",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwBsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T19:27:24.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginPage.razor",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\LoginPage.razor",
+              "RelativeDocumentMoniker": "DigitalNexus\\Components\\Pages\\LoginPage.razor",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\LoginPage.razor",
+              "RelativeToolTip": "DigitalNexus\\Components\\Pages\\LoginPage.razor",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T19:05:21.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegisterPage.razor",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\RegisterPage.razor",
+              "RelativeDocumentMoniker": "DigitalNexus\\Components\\Pages\\RegisterPage.razor",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\RegisterPage.razor",
+              "RelativeToolTip": "DigitalNexus\\Components\\Pages\\RegisterPage.razor",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAwwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T19:05:58.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CategoryFilter.razor",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\CategoryFilter.razor",
+              "RelativeDocumentMoniker": "DigitalNexus\\Components\\Pages\\CategoryFilter.razor",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\CategoryFilter.razor",
+              "RelativeToolTip": "DigitalNexus\\Components\\Pages\\CategoryFilter.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAwwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T19:31:29.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\appsettings.json",
+              "RelativeDocumentMoniker": "DigitalNexus\\appsettings.json",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\appsettings.json",
+              "RelativeToolTip": "DigitalNexus\\appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-26T18:55:18.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Program.cs",
+              "RelativeDocumentMoniker": "DigitalNexus\\Program.cs",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Program.cs",
+              "RelativeToolTip": "DigitalNexus\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T18:53:09.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductCard.razor",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\ProductCard.razor",
+              "RelativeDocumentMoniker": "DigitalNexus\\Components\\Pages\\ProductCard.razor",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\ProductCard.razor",
+              "RelativeToolTip": "DigitalNexus\\Components\\Pages\\ProductCard.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T19:30:54.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Error.razor",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\Error.razor",
+              "RelativeDocumentMoniker": "DigitalNexus\\Components\\Pages\\Error.razor",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\Error.razor",
+              "RelativeToolTip": "DigitalNexus\\Components\\Pages\\Error.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T19:24:30.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "DigitalNexus\\Components\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "DigitalNexus\\Components\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T20:03:36.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "DigitalNexus\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "DigitalNexus\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T21:21:17.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ISellerService.cs",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Services\\ISellerService.cs",
+              "RelativeDocumentMoniker": "DigitalNexus\\Models\\Services\\ISellerService.cs",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Services\\ISellerService.cs",
+              "RelativeToolTip": "DigitalNexus\\Models\\Services\\ISellerService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:10:12.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "DigitalNexus\\Models\\Services\\IProductService.cs",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Services\\IProductService.cs",
+              "RelativeToolTip": "DigitalNexus\\Models\\Services\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:10:03.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Services\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "DigitalNexus\\Models\\Services\\IPaymentService.cs",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Services\\IPaymentService.cs",
+              "RelativeToolTip": "DigitalNexus\\Models\\Services\\IPaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:09:53.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Services\\IOrderService.cs",
+              "RelativeDocumentMoniker": "DigitalNexus\\Models\\Services\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Services\\IOrderService.cs",
+              "RelativeToolTip": "DigitalNexus\\Models\\Services\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:09:44.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IBuyerService.cs",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Services\\IBuyerService.cs",
+              "RelativeDocumentMoniker": "DigitalNexus\\Models\\Services\\IBuyerService.cs",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Services\\IBuyerService.cs",
+              "RelativeToolTip": "DigitalNexus\\Models\\Services\\IBuyerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:09:35.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Services\\IAdminService.cs",
+              "RelativeDocumentMoniker": "DigitalNexus\\Models\\Services\\IAdminService.cs",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Services\\IAdminService.cs",
+              "RelativeToolTip": "DigitalNexus\\Models\\Services\\IAdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:09:26.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SellerService.cs",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Repositories\\SellerService.cs",
+              "RelativeDocumentMoniker": "DigitalNexus\\Models\\Repositories\\SellerService.cs",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Repositories\\SellerService.cs",
+              "RelativeToolTip": "DigitalNexus\\Models\\Repositories\\SellerService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvyQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:47:44.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Repositories\\ProductService.cs",
+              "RelativeDocumentMoniker": "DigitalNexus\\Models\\Repositories\\ProductService.cs",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Repositories\\ProductService.cs",
+              "RelativeToolTip": "DigitalNexus\\Models\\Repositories\\ProductService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvyMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:47:36.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Repositories\\PaymentService.cs",
+              "RelativeDocumentMoniker": "DigitalNexus\\Models\\Repositories\\PaymentService.cs",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Repositories\\PaymentService.cs",
+              "RelativeToolTip": "DigitalNexus\\Models\\Repositories\\PaymentService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvx8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:47:26.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Repositories\\OrderService.cs",
+              "RelativeDocumentMoniker": "DigitalNexus\\Models\\Repositories\\OrderService.cs",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Repositories\\OrderService.cs",
+              "RelativeToolTip": "DigitalNexus\\Models\\Repositories\\OrderService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAADwvyQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:47:09.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BuyerService.cs",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Repositories\\BuyerService.cs",
+              "RelativeDocumentMoniker": "DigitalNexus\\Models\\Repositories\\BuyerService.cs",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Repositories\\BuyerService.cs",
+              "RelativeToolTip": "DigitalNexus\\Models\\Repositories\\BuyerService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAADwvywAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:46:30.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Repositories\\AdminService.cs",
+              "RelativeDocumentMoniker": "DigitalNexus\\Models\\Repositories\\AdminService.cs",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Repositories\\AdminService.cs",
+              "RelativeToolTip": "DigitalNexus\\Models\\Repositories\\AdminService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAADwvykAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:09:23.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Seller.cs",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Entities\\Seller.cs",
+              "RelativeDocumentMoniker": "DigitalNexus\\Models\\Entities\\Seller.cs",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Entities\\Seller.cs",
+              "RelativeToolTip": "DigitalNexus\\Models\\Entities\\Seller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:09:08.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "DigitalNexus\\Models\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Entities\\Product.cs",
+              "RelativeToolTip": "DigitalNexus\\Models\\Entities\\Product.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:08:59.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Entities\\Payment.cs",
+              "RelativeDocumentMoniker": "DigitalNexus\\Models\\Entities\\Payment.cs",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Entities\\Payment.cs",
+              "RelativeToolTip": "DigitalNexus\\Models\\Entities\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:08:50.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "DigitalNexus\\Models\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Entities\\Order.cs",
+              "RelativeToolTip": "DigitalNexus\\Models\\Entities\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:08:41.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Entities\\Cart.cs",
+              "RelativeDocumentMoniker": "DigitalNexus\\Models\\Entities\\Cart.cs",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Entities\\Cart.cs",
+              "RelativeToolTip": "DigitalNexus\\Models\\Entities\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:08:31.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Buyer.cs",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Entities\\Buyer.cs",
+              "RelativeDocumentMoniker": "DigitalNexus\\Models\\Entities\\Buyer.cs",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Entities\\Buyer.cs",
+              "RelativeToolTip": "DigitalNexus\\Models\\Entities\\Buyer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:08:21.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Entities\\Admin.cs",
+              "RelativeDocumentMoniker": "DigitalNexus\\Models\\Entities\\Admin.cs",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Models\\Entities\\Admin.cs",
+              "RelativeToolTip": "DigitalNexus\\Models\\Entities\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T19:08:11.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "DigitalNexus\\Components\\Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\HusnaSarwar\\Desktop\\blazorFinal\\DigitalNexus\\DigitalNexus\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "DigitalNexus\\Components\\Pages\\Weather.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T21:11:00.482Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

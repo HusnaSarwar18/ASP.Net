@@ -1,0 +1,37 @@
+﻿@page "/admin/dashboard"
+@using DigitalNexus.Models.Entities
+@using DigitalNexus.Models.Services
+@inject IAdminService AdminService
+
+<h2>Admin Dashboard</h2>
+
+<div>
+    <h3>All Buyers</h3>
+    <ul>
+        @foreach (var buyer in Buyers)
+        {
+            <li>@buyer.Name - @buyer.Email</li>
+        }
+    </ul>
+</div>
+
+<div>
+    <h3>All Sellers</h3>
+    <ul>
+        @foreach (var seller in Sellers)
+        {
+            <li>@seller.Name - @seller.Email</li>
+        }
+    </ul>
+</div>
+
+@code {
+    private List<Buyer> Buyers = new List<Buyer>();
+    private List<Seller> Sellers = new List<Seller>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Buyers = await Task.Run(() => AdminService.GetAllBuyers());
+        Sellers = await Task.Run(() => AdminService.GetAllSellers());
+    }
+}

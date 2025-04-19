@@ -1,0 +1,33 @@
+﻿@page "/products"
+@using DigitalNexus.Models.Entities
+@using DigitalNexus.Models.Services
+@inject IProductService ProductService
+
+<h2 class="text-center mt-4">Products</h2>
+
+<CategoryFilter OnCategorySelected="ApplyCategoryFilter" />
+
+<div class="container mt-4">
+    <div class="row">
+        @foreach (var product in Products)
+        {
+            <div class="col-md-3 mb-3">
+                <ProductCard Product="@product" />
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+    private List<Product> Products = new List<Product>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Products = ProductService.GetProductsByCategory("All");
+    }
+
+    private async Task ApplyCategoryFilter(string category)
+    {
+        Products = ProductService.GetProductsByCategory(category);
+    }
+}

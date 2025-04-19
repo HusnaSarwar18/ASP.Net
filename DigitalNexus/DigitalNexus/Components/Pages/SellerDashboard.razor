@@ -1,0 +1,45 @@
+﻿@page "/seller/dashboard"
+@using DigitalNexus.Models.Entities
+@using DigitalNexus.Models.Services
+@inject ISellerService SellerService
+
+<h2>Seller Dashboard</h2>
+
+<div>
+    <h3>Your Products</h3>
+    <div class="container mt-4">
+        @foreach (var product in Products)
+        {
+            <div class="row mb-3">
+                <div class="col-md-8">
+                    <h5>@product.Name</h5>
+                    <p>Price: $@product.Price</p>
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-warning" @onclick="() => EditProduct(product.ProductId)">Edit</button>
+                    <button class="btn btn-danger" @onclick="() => DeleteProduct(product.ProductId)">Delete</button>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+    private List<Product> Products = new List<Product>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Products = await Task.Run(() => SellerService.GetProductsBySeller(1)); // Mocked SellerId
+    }
+
+    private void EditProduct(int productId)
+    {
+        // Navigate to edit product logic
+    }
+
+    private async Task DeleteProduct(int productId)
+    {
+        await Task.Run(() => SellerService.RemoveProduct(productId));
+        Products = await Task.Run(() => SellerService.GetProductsBySeller(1));
+    }
+}

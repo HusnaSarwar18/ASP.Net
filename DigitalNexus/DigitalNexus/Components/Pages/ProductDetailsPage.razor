@@ -1,0 +1,46 @@
+﻿@page "/product/{productId:int}"
+@using DigitalNexus.Models.Entities
+@using DigitalNexus.Models.Services
+@inject IProductService ProductService
+@inject IBuyerService BuyerService
+
+<h2>Product Details</h2>
+
+@if (Product == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <div>
+        <h3>@Product.Name</h3>
+        <p>Category: @Product.Category</p>
+        <p>Brand: @Product.Brand</p>
+        <p>Price: $@Product.Price</p>
+        <p>Description: @Product.Description</p>
+        <button class="btn btn-primary" @onclick="AddToCart">Add to Cart</button>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public int ProductId { get; set; }
+    private Product Product;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Product = ProductService.GetProductById(ProductId);
+    }
+
+    private void AddToCart()
+    {
+        BuyerService.AddToCart(new Cart
+            {
+                BuyerId = 1, // Mocked BuyerId
+                ProductId = Product.ProductId,
+                Quantity = 1,
+                TotalPrice = Product.Price
+            });
+        Console.WriteLine($"{Product.Name} added to cart.");
+    }
+}

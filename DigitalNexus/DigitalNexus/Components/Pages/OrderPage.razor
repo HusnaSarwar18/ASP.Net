@@ -1,0 +1,28 @@
+﻿@page "/orders"
+@using DigitalNexus.Models.Entities
+@using DigitalNexus.Models.Services
+@inject IBuyerService BuyerService
+
+<h2>Your Orders</h2>
+
+<div class="container mt-4">
+    @foreach (var order in Orders)
+    {
+        <div class="row mb-3">
+            <div class="col-md-12">
+                <h5>Order ID: @order.OrderId</h5>
+                <p>Status: @order.OrderStatus</p>
+                <p>Total Price: $@order.TotalPrice</p>
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    private List<Order> Orders = new List<Order>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Orders = BuyerService.GetOrders(1); // Mocked BuyerId
+    }
+}

@@ -1,0 +1,16 @@
+﻿@using DigitalNexus.Models.Entities
+@code {
+    [Parameter]
+    public List<Order> Orders { get; set; }
+}
+
+<div>
+    <h3>Order Summary</h3>
+    @foreach (var order in Orders)
+    {
+        <div>
+            <h5>Order ID: @order.OrderId</h5>
+            <p>Total Price: $@order.TotalPrice</p>
+        </div>
+    }
+</div>

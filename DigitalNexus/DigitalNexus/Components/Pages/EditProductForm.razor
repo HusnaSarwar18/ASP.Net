@@ -1,0 +1,35 @@
+﻿@using DigitalNexus.Models.Entities
+@code {
+    [Parameter]
+    public Product Product { get; set; }
+    [Parameter]
+    public EventCallback OnProductEdited { get; set; }
+
+    private async Task EditProduct()
+    {
+        // Mocked logic for editing a product
+        await OnProductEdited.InvokeAsync();
+        Console.WriteLine($"Product {Product.Name} updated successfully!");
+    }
+}
+
+<div class="mt-4">
+    <h3>Edit Product</h3>
+    <div>
+        <label>Product Name:</label>
+        <input class="form-control" @bind="Product.Name" />
+    </div>
+    <div>
+        <label>Price:</label>
+        <input type="number" class="form-control" @bind="Product.Price" />
+    </div>
+    <div>
+        <label>Category:</label>
+        <input class="form-control" @bind="Product.Category" />
+    </div>
+    <div>
+        <label>Description:</label>
+        <textarea class="form-control" @bind="Product.Description"></textarea>
+    </div>
+    <button class="btn btn-warning mt-3" @onclick="EditProduct">Save Changes</button>
+</div>
